@@ -1,0 +1,102 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'card-1 card-1 card-1 card-1 card-2 card-2 card-2 card-2 card-3 card-3 card-3 card-3'
+    'card-4 card-4 card-4 card-4 card-5 card-5 card-5 card-5 card-6 card-6 card-6 card-6'
+    'card-7 card-7 card-7 card-7 card-8 card-8 card-8 card-8 card-9 card-9 card-9 card-9' ;
+    width: 10in;
+    margin: 0 auto;
+}
+
+img{
+    height: 180px;
+    width: 290px;
+    margin-top: 5px;
+    
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.card-1{
+    grid-area: card-1;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-2{
+    grid-area: card-2;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-3{
+    grid-area: card-3;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-4{
+    grid-area: card-4;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-5{
+    grid-area: card-5;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-6{
+    grid-area: card-6;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-7{
+    grid-area: card-7;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-8{
+    grid-area: card-8;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.card-9{
+    grid-area: card-9;
+    border: 2px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+
+

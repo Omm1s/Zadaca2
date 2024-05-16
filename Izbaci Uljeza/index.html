@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Izbaci Uljeza</title>
+</head>
+<body>
+
+<h1>IZBACI ULJEZA</h1>
+
+    <div class="grid-container">
+
+
+<div  class="main-1">
+
+    <div class="photos">
+        <img onclick="incorrect1(this)" height="250px" width="200px"  src="./media/jokic.jpg" alt="">
+        <img onclick="incorrect1(this)" height="250px"  width="200px" src="./media/lebron.jpg" alt="">
+        <img onclick="correct1(this)"  height="250px"  width="200px" src="./media/messi.jpg" alt="">
+        </div>
+        <p id="p1"></p>
+</div>
+
+<div class="main-2">
+    <div class="photos">
+   <img onclick="correct2(this)" height="250px" width="200px" src="./media/hanks.jpeg" alt="">
+   <img onclick="incorrect2(this)" height="250px" width="200px" src="./media/charlie.jpg" alt="">
+   <img onclick="incorrect2(this)" height="250px" width="200px" src="./media/weekend.jpg" alt="">
+</div>
+<p id="p2"></p>
+</div>
+
+<div class="main-3">
+    <div class="photos">
+        <img onclick="incorrect3(this)" height="250px" width="200px" src="./media/stalone.jpg" alt="">
+        <img onclick="correct3(this)" height="250px" width="200px" src="./media/sheeran.jpeg" alt="">
+        <img onclick="incorrect3(this)" height="250px" width="200px" src="./media/schwarz.jpeg" alt="">
+    </div>
+    <p id="p3"></p>
+</div>
+
+<div class="main-4">
+    <div class="photos">
+        <img onclick="incorrect4(this)" height="250px" width="200px" src="./media/tesla.jpg" alt="">
+        <img onclick="incorrect4(this)" height="250px" width="200px" src="./media/einstein.jpeg" alt="">
+        <img onclick="correct4(this)" height="250px" width="200px" src="./media/jordan.jpg" alt="">
+    </div>
+    <p id="p4"></p>
+</div>
+
+
+
+    </div>
+
+
+
+    <script>
+        function correct1(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p1').innerHTML="TAČNO";
+        }
+
+        function incorrect1(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p1').innerHTML="NIJE TAČNO";
+        }
+
+        function correct2(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p2').innerHTML="TAČNO";
+        }
+
+        function incorrect2(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p2').innerHTML="NIJE TAČNO";
+        }
+
+        function correct3(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p3').innerHTML="TAČNO";
+        }
+
+        function incorrect3(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p3').innerHTML="NIJE TAČNO";
+        }
+
+        function correct4(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p4').innerHTML="TAČNO";
+        }
+
+        function incorrect4(el){
+            var element = el;
+            element.remove();
+
+            document.getElementById('p4').innerHTML="NIJE TAČNO";
+        }
+    </script>
+</body>
+</html>
